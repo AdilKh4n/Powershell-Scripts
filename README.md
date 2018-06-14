@@ -7,6 +7,7 @@ Write a PowerShell function that will take three inputs (a source path, destinat
 <li>	If the filename starts with any other character other a-z it should be deleted instead of moved
 If the function runs and finds no files to be moved or deleted, it should log a warning in PowerShell that no files were found for processing. </li>
 
+<br> <br>
 
 a.	Using Pester (a PowerShell testing framework) - https://github.com/pester/Pester, write tests for the following 3 scenarios:
 <li>	No files exist in the source folder – then run the function – test that a warning was issued </li>
